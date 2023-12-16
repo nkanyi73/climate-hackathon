@@ -42,11 +42,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normals:
-        m_Texture: {fileID: 2800000, guid: d328281941932164fad29aac1ffd1b71, type: 3}
+        m_Texture: {fileID: 2800000, guid: b1e78be77647688449b278d022f0db4b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Texture:
-        m_Texture: {fileID: 2800000, guid: c29b2f53dde439446bf1c09e137146fc, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4d99e6cc66afad141933789e6650351b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -65,11 +65,11 @@ Material:
     m_Floats:
     - _Float: -1.96
     - _FlowMap_Tiling: 0.09
-    - _Metallic: 0.06
+    - _Metallic: -0.28
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: -0.63
+    - _Smoothness: 0.62
     - _Speed: 0.05
-    - _Tiling: 0.57
+    - _Tiling: -1.38
     m_Colors: []
   m_BuildTextureStacks: []
