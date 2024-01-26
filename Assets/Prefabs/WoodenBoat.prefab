@@ -86,5 +86,64 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3729328785289095755, guid: 03dfa428835b16d4fb12cab39de414a4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2581264879131626585}
+    - targetCorrespondingSourceObject: {fileID: 3729328785289095755, guid: 03dfa428835b16d4fb12cab39de414a4,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7838142895916244727}
   m_SourcePrefab: {fileID: 100100000, guid: 03dfa428835b16d4fb12cab39de414a4, type: 3}
+--- !u!1 &7233183202454038105 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3729328785289095755, guid: 03dfa428835b16d4fb12cab39de414a4,
+    type: 3}
+  m_PrefabInstance: {fileID: 6314135780030925842}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2581264879131626585
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7233183202454038105}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7838142895916244727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7233183202454038105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1dc9beaa8f58514eb3b11df8f374870, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  underWaterDrag: 3
+  underWaterAngularDrag: 1
+  airDrag: 0
+  airAngularDrag: 0.05
+  floatingPower: 15
+  waterHeight: 12.6

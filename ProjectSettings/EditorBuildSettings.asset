@@ -5,10 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SourceScene.unity
+    guid: 8aa6d9a9029cf854887caadd639775aa
+  - enabled: 1
+    path: Assets/Scenes/CityScene.unity
+    guid: 16c0d7c6cdc75764d9ab938176f56431
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 5f4df4b56ee90a242878c420462e1594
   - enabled: 0
     path: Assets/Lightmapping Example/Lightmap Final.unity
     guid: fb0ca1eace2cfe845864fc03db83c705
-  - enabled: 1
+  - enabled: 0
     path: Assets/Unity VR Template/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
   m_configObjects:
