@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Net
+  - Net Attach
+  - Basket
+  - Basket Touch Point
+  - Scene Controller
+  - Basket 1 Touch Point
+  - Basket 2 Touch Point
   layers:
   - Default
   - TransparentFX

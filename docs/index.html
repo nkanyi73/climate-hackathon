@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rivers of Impact</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('river.jpg') center/cover no-repeat fixed;
+            /* background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) ), url('river.jpg') center/cover no-repeat fixed; */
+            color: #ffffff; /* White text */
+            line-height: 1.5;
+        }
+
+        header, footer {
+            background: none; /* Remove background color */
+        }
+
+        .content {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            /* max-width: 50%; */
+            background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45) );
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+            padding: 2%;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        .github-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #2ecc71; /* Green color for the button */
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .github-button:hover {
+            background-color: #27ae60;
+        }
+
+        /* section {
+            padding: 40px;
+            text-align: center;
+        } */
+
+        footer {
+            padding: 10px;
+            text-align: center;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="headerDiv">
+            <header>
+                <h1>Rivers of Impact</h1>
+            </header>
+        </div>
+    
+    <div class="content">
+        <!-- <section> -->
+            <h2>About The Project</h2>
+            <p>Immerse yourself in a groundbreaking VR experience that sheds light on the alarming issue of plastic pollution in rivers. Narrated by a seasoned fisherman, our virtual journey takes you through three distinct scenes of a river:</p>
+            <ol>
+                <li>The Clean Source</li>
+                <li>Trash Accumulation in the Middle</li>
+                <li>High Plastic Levels at the End</li>
+            </ol>
+            <p>Experience stunning visuals and captivating audio as you witness the transformation of a pristine river into a polluted waterway. This project aims to raise awareness about the significant contribution of rivers to the plastic crisis in our seas.</p>
+
+            <a href="https://github.com/nkanyi73/climate-hackathon" class="github-button" target="_blank">View on GitHub</a>
+        <!-- </section> -->
+    </div>    
+    
+
+    <footer>
+        <p>&copy; 2024 Rivers of Impact</p>
+    </footer>
+</div>
+</body>
+
+</html>
